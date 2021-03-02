@@ -6,15 +6,40 @@ body{
     background: url(ladakh.jpg);
     background-repeat: no-repeat;
     background-size: 280%;
-    background-position: auto auto;
+    background-position: -400px 0px;
 
 }
 div.main{
     width: 400px;
     margin: 100px auto 0px auto;
-}
+    }
 h2{
     text-align: center;
     paddding: 20px
     font-family: sans-serif;
+    }
+div.register{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border:1px solid rgba(255,255,255,255);
+    box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+    color:#fff;
+    }
+form#register{
+    margin: 40px
+    }
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    }
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    paddding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
 }
